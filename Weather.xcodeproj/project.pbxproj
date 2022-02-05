@@ -13,6 +13,8 @@
 		C9F198CF27AEB57A0044E0B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9F198CD27AEB57A0044E0B1 /* Main.storyboard */; };
 		C9F198D127AEB57B0044E0B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9F198D027AEB57B0044E0B1 /* Assets.xcassets */; };
 		C9F198D427AEB57B0044E0B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9F198D227AEB57B0044E0B1 /* LaunchScreen.storyboard */; };
+		C9F198DC27AEB8460044E0B1 /* WeatherInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F198DB27AEB8460044E0B1 /* WeatherInformation.swift */; };
+		C9F198DE27AEC6310044E0B1 /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F198DD27AEC6310044E0B1 /* ErrorMessage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		C9F198D027AEB57B0044E0B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9F198D327AEB57B0044E0B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C9F198D527AEB57B0044E0B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9F198DB27AEB8460044E0B1 /* WeatherInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherInformation.swift; sourceTree = "<group>"; };
+		C9F198DD27AEC6310044E0B1 /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				C9F198D027AEB57B0044E0B1 /* Assets.xcassets */,
 				C9F198D227AEB57B0044E0B1 /* LaunchScreen.storyboard */,
 				C9F198D527AEB57B0044E0B1 /* Info.plist */,
+				C9F198DB27AEB8460044E0B1 /* WeatherInformation.swift */,
+				C9F198DD27AEC6310044E0B1 /* ErrorMessage.swift */,
 			);
 			path = Weather;
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9F198CC27AEB57A0044E0B1 /* ViewController.swift in Sources */,
+				C9F198DC27AEB8460044E0B1 /* WeatherInformation.swift in Sources */,
+				C9F198DE27AEC6310044E0B1 /* ErrorMessage.swift in Sources */,
 				C9F198C827AEB57A0044E0B1 /* AppDelegate.swift in Sources */,
 				C9F198CA27AEB57A0044E0B1 /* SceneDelegate.swift in Sources */,
 			);
